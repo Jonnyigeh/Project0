@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest YOURFILE.py
+        pytest testing.py
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
