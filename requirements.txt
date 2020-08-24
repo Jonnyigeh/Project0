@@ -1,6 +1,5 @@
 numpy
 matplotlib
 sympy
-scipy
 math
 cmath
