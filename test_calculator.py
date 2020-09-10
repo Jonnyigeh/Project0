@@ -91,5 +91,5 @@ def test_square(arg, eo):
 	assert square(arg) == eo
 
 @pytest.mark.parametrize("arg, eo", [(2, 4), (3, 27), (5, 125)])
-def test_cube(x, x2):
+def test_cube(arg, eo):
 	assert cube(arg) == eo
