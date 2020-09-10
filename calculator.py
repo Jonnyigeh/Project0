@@ -22,7 +22,7 @@ def sin(x, N):
 def divide(x, y):
 	return x/y
 
-def f1(x, y):
-	return x + y
-def f2(x):
+def cube(x):
+	return x**3
+def square(x):
 	return x**2
