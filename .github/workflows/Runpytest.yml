@@ -34,7 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest test*.py
+        pytest                  # Will test all files on the form test_*.py in current directory
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
